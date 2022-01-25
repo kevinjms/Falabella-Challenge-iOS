@@ -1,0 +1,6 @@
+module CoreFeatureApp {
+  umbrella header "CoreFeatureApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_Falabella_Challenge {
+  umbrella header "Pods-Falabella-Challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

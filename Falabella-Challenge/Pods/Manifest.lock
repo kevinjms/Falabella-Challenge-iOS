@@ -1,0 +1,16 @@
+PODS:
+  - CoreFeatureApp (0.0.1)
+
+DEPENDENCIES:
+  - CoreFeatureApp (from `../CoreFeatureApp`)
+
+EXTERNAL SOURCES:
+  CoreFeatureApp:
+    :path: "../CoreFeatureApp"
+
+SPEC CHECKSUMS:
+  CoreFeatureApp: 2fe6d190ec3727c8c072929750e80bcf266f186a
+
+PODFILE CHECKSUM: 971f36d3035056750a15941c86ea14ec037954e2
+
+COCOAPODS: 1.11.2

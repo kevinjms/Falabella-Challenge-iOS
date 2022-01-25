@@ -1,0 +1,21 @@
+{
+  "name": "CoreFeatureApp",
+  "version": "0.0.1",
+  "summary": "CoreFeatureApp is a module used in others projects",
+  "description": "CoreFeatureApp is a module with architecture MVP using UIkit",
+  "homepage": "https://github.com/kevinjms/Falabella-Challenge-iOS/tree/main/CoreFeatureApp",
+  "license": "MIT",
+  "authors": {
+    "Kevin Marin": "kevinmarinsaavedra@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "CoreFeatureApp/**/*.{h,m,swift}",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
