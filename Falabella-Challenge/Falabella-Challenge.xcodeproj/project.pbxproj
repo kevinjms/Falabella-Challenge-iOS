@@ -10,21 +10,25 @@
 		0994B81DDB99D334F4A9366B /* libPods-Falabella-Challenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA53E084F94E29040CA2324 /* libPods-Falabella-Challenge.a */; };
 		3364A513279F77E20045C983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364A512279F77E20045C983 /* AppDelegate.swift */; };
 		3364A515279F77E20045C983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364A514279F77E20045C983 /* SceneDelegate.swift */; };
-		3364A517279F77E20045C983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364A516279F77E20045C983 /* ViewController.swift */; };
+		3364A517279F77E20045C983 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364A516279F77E20045C983 /* MainViewController.swift */; };
 		3364A51A279F77E20045C983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3364A518279F77E20045C983 /* Main.storyboard */; };
 		3364A51C279F77E40045C983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3364A51B279F77E40045C983 /* Assets.xcassets */; };
 		3364A51F279F77E40045C983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3364A51D279F77E40045C983 /* LaunchScreen.storyboard */; };
+		33D3A45827A1F22600732B17 /* AppFalabellaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D3A45727A1F22600732B17 /* AppFalabellaCoordinator.swift */; };
+		33D3A45C27A2261200732B17 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D3A45B27A2261200732B17 /* MainPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3364A50F279F77E20045C983 /* Falabella-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Falabella-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3364A512279F77E20045C983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3364A514279F77E20045C983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3364A516279F77E20045C983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3364A516279F77E20045C983 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3364A519279F77E20045C983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3364A51B279F77E40045C983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3364A51E279F77E40045C983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3364A520279F77E40045C983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D3A45727A1F22600732B17 /* AppFalabellaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFalabellaCoordinator.swift; sourceTree = "<group>"; };
+		33D3A45B27A2261200732B17 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		3AA53E084F94E29040CA2324 /* libPods-Falabella-Challenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Falabella-Challenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		420D281B76347F005B83E2E2 /* Pods-Falabella-Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falabella-Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Falabella-Challenge/Pods-Falabella-Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		4E94AC06E4F04AFD4841D367 /* Pods-Falabella-Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falabella-Challenge.release.xcconfig"; path = "Target Support Files/Pods-Falabella-Challenge/Pods-Falabella-Challenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,15 +67,41 @@
 		3364A511279F77E20045C983 /* Falabella-Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				33D3A45627A1F1E000732B17 /* Coordinator */,
+				33D3A45A27A224C500732B17 /* Scenes */,
+				33D3A45927A2012600732B17 /* Resources */,
 				3364A512279F77E20045C983 /* AppDelegate.swift */,
 				3364A514279F77E20045C983 /* SceneDelegate.swift */,
-				3364A516279F77E20045C983 /* ViewController.swift */,
 				3364A518279F77E20045C983 /* Main.storyboard */,
-				3364A51B279F77E40045C983 /* Assets.xcassets */,
 				3364A51D279F77E40045C983 /* LaunchScreen.storyboard */,
 				3364A520279F77E40045C983 /* Info.plist */,
 			);
 			path = "Falabella-Challenge";
+			sourceTree = "<group>";
+		};
+		33D3A45627A1F1E000732B17 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				33D3A45727A1F22600732B17 /* AppFalabellaCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		33D3A45927A2012600732B17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3364A51B279F77E40045C983 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33D3A45A27A224C500732B17 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3364A516279F77E20045C983 /* MainViewController.swift */,
+				33D3A45B27A2261200732B17 /* MainPresenter.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		7F952099EC6A05E431389EA3 /* Frameworks */ = {
@@ -188,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3364A517279F77E20045C983 /* ViewController.swift in Sources */,
+				33D3A45C27A2261200732B17 /* MainPresenter.swift in Sources */,
+				3364A517279F77E20045C983 /* MainViewController.swift in Sources */,
+				33D3A45827A1F22600732B17 /* AppFalabellaCoordinator.swift in Sources */,
 				3364A513279F77E20045C983 /* AppDelegate.swift in Sources */,
 				3364A515279F77E20045C983 /* SceneDelegate.swift in Sources */,
 			);

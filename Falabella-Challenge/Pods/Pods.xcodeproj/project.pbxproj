@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A901EDAA66F7168D189C0B9A180E715 /* CoreFeatureApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBB4B90C25DFF3A6F5B586B088C5D3B /* CoreFeatureApp.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26A6F6A9AE70EFCF9415ED9BEDAD3A0D /* CoreFeatureApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988CDE76315BF6FACFB695DD6FFCDF /* CoreFeatureApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63BA3B59915D2F49C7BFA17AA7E7E8A5 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E97288271A607C62CD824F5EAA4ED78 /* Welcome.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8835FDB8E21A87B579AFDA2EC21A4CB1 /* CoreFeatureApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EA48379427249B1D92DD88D2B8CFF /* CoreFeatureApp-dummy.m */; };
+		50638AECEA18EFA7BBFC6DF046022C2F /* CoreFeatureApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD7F27C82D844829145DC05FF88A489A /* CoreFeatureApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82091C58909DF8C55E4C61B5D566A790 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C137DD865ECC65684F3722B511BFDFDD /* LoginModels.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		868C7A6CF0D47517B4CAD97A36F6860A /* CoreFeatureApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 988E389C742D0CB49A1C93E296E93714 /* CoreFeatureApp.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8EA8AF351B1DAB0D2301BC29BB9763DF /* Pods-Falabella-Challenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4097ECBE9AE96A38ECAC3BE0BADFC906 /* Pods-Falabella-Challenge-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9F3B4BA8D4BABF7A6BB3BF8ADD2A4617 /* Pods-Falabella-Challenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3650144D8A1F634207B1C9EF5CF896 /* Pods-Falabella-Challenge-dummy.m */; };
+		A322F365FFED6889FCB088FE3269AF03 /* IBasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0EA2530CD669EE75E3D573F46D82C /* IBasePresenter.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEC1E8996DFB09ED22AB56034C1EF0A0 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C4FA1CADBE2274E5B8AF3879AD1E53 /* LoginPresenter.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9DA1C960FCD26B068C64CA28C22EE17 /* CoreFeatureApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DDE68AC9F9BEAE623856070FCCB276 /* CoreFeatureApp-dummy.m */; };
+		FCADC43732DC72F0C859D760FE2FCDC0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD39658AF7995AA4A839FFA6FE73935 /* LoginViewController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		412EEE3889E72C39D41D9268517063F1 /* PBXContainerItemProxy */ = {
+		D1CBA8CCF61FE0FE9B7D77E1D17985BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -26,29 +29,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6A196B4F4B4DAFA9DCAC8CC5D19F89 /* CoreFeatureApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreFeatureApp.modulemap; sourceTree = "<group>"; };
 		1C3650144D8A1F634207B1C9EF5CF896 /* Pods-Falabella-Challenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Falabella-Challenge-dummy.m"; sourceTree = "<group>"; };
+		22C4FA1CADBE2274E5B8AF3879AD1E53 /* LoginPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		3505A6F88561402E533B63D74A8C87EB /* Pods-Falabella-Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Falabella-Challenge.release.xcconfig"; sourceTree = "<group>"; };
 		4097ECBE9AE96A38ECAC3BE0BADFC906 /* Pods-Falabella-Challenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Falabella-Challenge-umbrella.h"; sourceTree = "<group>"; };
 		444C2ECF6A91692DA5A522CAE3D65116 /* CoreFeatureApp */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CoreFeatureApp; path = libCoreFeatureApp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		471225806C1BBE306D005FD4D7477EBE /* Pods-Falabella-Challenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Falabella-Challenge-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D98CD8100A99EFA2080FE9373FA9946 /* CoreFeatureApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreFeatureApp.modulemap; sourceTree = "<group>"; };
-		4EBB4B90C25DFF3A6F5B586B088C5D3B /* CoreFeatureApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreFeatureApp.h; path = CoreFeatureApp/CoreFeatureApp.h; sourceTree = "<group>"; };
 		5AFCC918552CE5EB758F13704CD2293F /* Pods-Falabella-Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Falabella-Challenge.debug.xcconfig"; sourceTree = "<group>"; };
-		5B9DF5C8BD45C7DFF97CB63BCB99DD5C /* CoreFeatureApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreFeatureApp-prefix.pch"; sourceTree = "<group>"; };
 		611EAB925B5EF82B4E0D2B13772BE8DC /* Pods-Falabella-Challenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Falabella-Challenge.modulemap"; sourceTree = "<group>"; };
-		66988CDE76315BF6FACFB695DD6FFCDF /* CoreFeatureApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreFeatureApp-umbrella.h"; sourceTree = "<group>"; };
-		845EA48379427249B1D92DD88D2B8CFF /* CoreFeatureApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreFeatureApp-dummy.m"; sourceTree = "<group>"; };
-		953B23E5C698BA8AA88428D57E8613FF /* CoreFeatureApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CoreFeatureApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69DDE68AC9F9BEAE623856070FCCB276 /* CoreFeatureApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreFeatureApp-dummy.m"; sourceTree = "<group>"; };
+		6CD39658AF7995AA4A839FFA6FE73935 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		988E389C742D0CB49A1C93E296E93714 /* CoreFeatureApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreFeatureApp.h; path = CoreFeatureApp/CoreFeatureApp.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E97288271A607C62CD824F5EAA4ED78 /* Welcome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
-		A072BE403311D34C59DE5AEF77F0800B /* CoreFeatureApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreFeatureApp.release.xcconfig; sourceTree = "<group>"; };
-		CE4BF698CCEA2F8A2F696EDEBCD8E492 /* CoreFeatureApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreFeatureApp.debug.xcconfig; sourceTree = "<group>"; };
+		9EF0EA2530CD669EE75E3D573F46D82C /* IBasePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBasePresenter.swift; sourceTree = "<group>"; };
+		BD295F53976CA13FC82B11F19C9CD832 /* CoreFeatureApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreFeatureApp.debug.xcconfig; sourceTree = "<group>"; };
+		BD7F27C82D844829145DC05FF88A489A /* CoreFeatureApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreFeatureApp-umbrella.h"; sourceTree = "<group>"; };
+		C137DD865ECC65684F3722B511BFDFDD /* LoginModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
 		E0E1DDFB5076CC1A54467401D172ECBA /* Pods-Falabella-Challenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Falabella-Challenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED29701038F937F649DDE10F7A894767 /* CoreFeatureApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreFeatureApp-prefix.pch"; sourceTree = "<group>"; };
 		ED94DD6BDC4070CCFD9637D3886A5CD5 /* Pods-Falabella-Challenge */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Falabella-Challenge"; path = "libPods-Falabella-Challenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35BF9BE2DC348BE3E763EF65C6ADF2E /* CoreFeatureApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreFeatureApp.release.xcconfig; sourceTree = "<group>"; };
+		FAF73BCB0F1465431769A0D5FA8771E0 /* CoreFeatureApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CoreFeatureApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D32EE91BCA05A80352C947CA0495C5D /* Frameworks */ = {
+		0F3F0354CBFBC1B9DF84D85563DEDF34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,6 +79,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		07706A2E5260A9607E56A6A1051017B6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9EF0EA2530CD669EE75E3D573F46D82C /* IBasePresenter.swift */,
+			);
+			name = Protocol;
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		345EC130E019B441F8FFB9731E367286 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,33 +97,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B118F970EDEDC6B063C4E64121CF4C3 /* Pod */ = {
+		4DB503B3059B641611CA9EA8FBDC7061 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				953B23E5C698BA8AA88428D57E8613FF /* CoreFeatureApp.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4F2DE6C2BE0C92252C2423B7C267FEAE /* CoreFeatureApp */ = {
-			isa = PBXGroup;
-			children = (
-				4EBB4B90C25DFF3A6F5B586B088C5D3B /* CoreFeatureApp.h */,
-				4B118F970EDEDC6B063C4E64121CF4C3 /* Pod */,
-				730B96BC8498204D39D0433757AA2819 /* Sources */,
-				FE11E5D680A8FA7478A982FF27F1F379 /* Support Files */,
-			);
-			name = CoreFeatureApp;
-			path = ../../CoreFeatureApp;
-			sourceTree = "<group>";
-		};
-		730B96BC8498204D39D0433757AA2819 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				9E97288271A607C62CD824F5EAA4ED78 /* Welcome.swift */,
+				07706A2E5260A9607E56A6A1051017B6 /* Protocol */,
+				FA7A296D406C74F45653DB80A79877D1 /* Scenes */,
 			);
 			name = Sources;
 			path = CoreFeatureApp/Sources;
+			sourceTree = "<group>";
+		};
+		7BF25488194DFC1937F71EF100599D3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A196B4F4B4DAFA9DCAC8CC5D19F89 /* CoreFeatureApp.modulemap */,
+				69DDE68AC9F9BEAE623856070FCCB276 /* CoreFeatureApp-dummy.m */,
+				ED29701038F937F649DDE10F7A894767 /* CoreFeatureApp-prefix.pch */,
+				BD7F27C82D844829145DC05FF88A489A /* CoreFeatureApp-umbrella.h */,
+				BD295F53976CA13FC82B11F19C9CD832 /* CoreFeatureApp.debug.xcconfig */,
+				F35BF9BE2DC348BE3E763EF65C6ADF2E /* CoreFeatureApp.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Falabella-Challenge/Pods/Target Support Files/CoreFeatureApp";
 			sourceTree = "<group>";
 		};
 		ACF8F7D92CC456F6C16246E78860C171 /* Pods-Falabella-Challenge */ = {
@@ -129,7 +139,7 @@
 		BEF1ADA0E2D12647B2D70EB2C9DA8D39 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4F2DE6C2BE0C92252C2423B7C267FEAE /* CoreFeatureApp */,
+				D492105600738D6337E4A23D8D46C361 /* CoreFeatureApp */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -145,6 +155,18 @@
 			);
 			sourceTree = "<group>";
 		};
+		D492105600738D6337E4A23D8D46C361 /* CoreFeatureApp */ = {
+			isa = PBXGroup;
+			children = (
+				988E389C742D0CB49A1C93E296E93714 /* CoreFeatureApp.h */,
+				E54561F5BDB06EA8382F92F4F3707C7B /* Pod */,
+				4DB503B3059B641611CA9EA8FBDC7061 /* Sources */,
+				7BF25488194DFC1937F71EF100599D3F /* Support Files */,
+			);
+			name = CoreFeatureApp;
+			path = ../../CoreFeatureApp;
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,18 +174,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE11E5D680A8FA7478A982FF27F1F379 /* Support Files */ = {
+		E54561F5BDB06EA8382F92F4F3707C7B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4D98CD8100A99EFA2080FE9373FA9946 /* CoreFeatureApp.modulemap */,
-				845EA48379427249B1D92DD88D2B8CFF /* CoreFeatureApp-dummy.m */,
-				5B9DF5C8BD45C7DFF97CB63BCB99DD5C /* CoreFeatureApp-prefix.pch */,
-				66988CDE76315BF6FACFB695DD6FFCDF /* CoreFeatureApp-umbrella.h */,
-				CE4BF698CCEA2F8A2F696EDEBCD8E492 /* CoreFeatureApp.debug.xcconfig */,
-				A072BE403311D34C59DE5AEF77F0800B /* CoreFeatureApp.release.xcconfig */,
+				FAF73BCB0F1465431769A0D5FA8771E0 /* CoreFeatureApp.podspec */,
 			);
-			name = "Support Files";
-			path = "../Falabella-Challenge/Pods/Target Support Files/CoreFeatureApp";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FA7A296D406C74F45653DB80A79877D1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6F03982CAD92A2CAC1395F107740F /* Login */,
+			);
+			name = Scenes;
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FFF6F03982CAD92A2CAC1395F107740F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C137DD865ECC65684F3722B511BFDFDD /* LoginModels.swift */,
+				22C4FA1CADBE2274E5B8AF3879AD1E53 /* LoginPresenter.swift */,
+				6CD39658AF7995AA4A839FFA6FE73935 /* LoginViewController.swift */,
+			);
+			name = Login;
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,12 +213,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9239F7E90E607E2D622D5D1574063DE /* Headers */ = {
+		55ADA68A304E2E20BB9D5C9B8E91362C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A901EDAA66F7168D189C0B9A180E715 /* CoreFeatureApp.h in Headers */,
-				26A6F6A9AE70EFCF9415ED9BEDAD3A0D /* CoreFeatureApp-umbrella.h in Headers */,
+				868C7A6CF0D47517B4CAD97A36F6860A /* CoreFeatureApp.h in Headers */,
+				50638AECEA18EFA7BBFC6DF046022C2F /* CoreFeatureApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +236,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FF4A2B7B233CB997AC3B852F70D50D71 /* PBXTargetDependency */,
+				DFD239D0AA25A0C216BB2D5D8A365294 /* PBXTargetDependency */,
 			);
 			name = "Pods-Falabella-Challenge";
 			productName = "Pods-Falabella-Challenge";
@@ -209,12 +245,12 @@
 		};
 		84C9615C1ACD6CF88585B977BD787013 /* CoreFeatureApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 349F77F26B86C9895A53B231C6EFE8C6 /* Build configuration list for PBXNativeTarget "CoreFeatureApp" */;
+			buildConfigurationList = A0B55F4F681DDFE3D1B4C6F4795A84F7 /* Build configuration list for PBXNativeTarget "CoreFeatureApp" */;
 			buildPhases = (
-				A9239F7E90E607E2D622D5D1574063DE /* Headers */,
-				239A79F2A2D355CDED80DC357F97E01A /* Sources */,
-				8D32EE91BCA05A80352C947CA0495C5D /* Frameworks */,
-				5F47138758A8A7607F48921EB2FE2315 /* Copy generated compatibility header */,
+				55ADA68A304E2E20BB9D5C9B8E91362C /* Headers */,
+				F9ED1263D7AF91B8BF10415186150578 /* Sources */,
+				0F3F0354CBFBC1B9DF84D85563DEDF34 /* Frameworks */,
+				147D802074C420DC764B5130BBA02EE2 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -254,7 +290,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F47138758A8A7607F48921EB2FE2315 /* Copy generated compatibility header */ = {
+		147D802074C420DC764B5130BBA02EE2 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,15 +317,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		239A79F2A2D355CDED80DC357F97E01A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8835FDB8E21A87B579AFDA2EC21A4CB1 /* CoreFeatureApp-dummy.m in Sources */,
-				63BA3B59915D2F49C7BFA17AA7E7E8A5 /* Welcome.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D4F2D64C3D6FD27B6A42DFDFFA33674E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,14 +325,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9ED1263D7AF91B8BF10415186150578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DA1C960FCD26B068C64CA28C22EE17 /* CoreFeatureApp-dummy.m in Sources */,
+				A322F365FFED6889FCB088FE3269AF03 /* IBasePresenter.swift in Sources */,
+				82091C58909DF8C55E4C61B5D566A790 /* LoginModels.swift in Sources */,
+				EEC1E8996DFB09ED22AB56034C1EF0A0 /* LoginPresenter.swift in Sources */,
+				FCADC43732DC72F0C859D760FE2FCDC0 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FF4A2B7B233CB997AC3B852F70D50D71 /* PBXTargetDependency */ = {
+		DFD239D0AA25A0C216BB2D5D8A365294 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CoreFeatureApp;
 			target = 84C9615C1ACD6CF88585B977BD787013 /* CoreFeatureApp */;
-			targetProxy = 412EEE3889E72C39D41D9268517063F1 /* PBXContainerItemProxy */;
+			targetProxy = D1CBA8CCF61FE0FE9B7D77E1D17985BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,9 +438,9 @@
 			};
 			name = Release;
 		};
-		616A6F263FBB69442DC177EE0164A781 /* Release */ = {
+		462946D6F8E23A44CD9FFEE66AD0B5F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A072BE403311D34C59DE5AEF77F0800B /* CoreFeatureApp.release.xcconfig */;
+			baseConfigurationReference = F35BF9BE2DC348BE3E763EF65C6ADF2E /* CoreFeatureApp.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -424,6 +463,31 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		5603BA84A117990D212DBB8E45A44AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD295F53976CA13FC82B11F19C9CD832 /* CoreFeatureApp.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreFeatureApp/CoreFeatureApp-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/CoreFeatureApp/CoreFeatureApp.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CoreFeatureApp;
+				PRODUCT_NAME = CoreFeatureApp;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -509,43 +573,9 @@
 			};
 			name = Debug;
 		};
-		90994EB0F3733F7A3BB97782D2D54582 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE4BF698CCEA2F8A2F696EDEBCD8E492 /* CoreFeatureApp.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CoreFeatureApp/CoreFeatureApp-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MODULEMAP_FILE = Headers/Public/CoreFeatureApp/CoreFeatureApp.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CoreFeatureApp;
-				PRODUCT_NAME = CoreFeatureApp;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		349F77F26B86C9895A53B231C6EFE8C6 /* Build configuration list for PBXNativeTarget "CoreFeatureApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90994EB0F3733F7A3BB97782D2D54582 /* Debug */,
-				616A6F263FBB69442DC177EE0164A781 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -560,6 +590,15 @@
 			buildConfigurations = (
 				8A8E5EAA79A4AC7CB91710E8CDCA1A03 /* Debug */,
 				3F36B05D11A48488CAF7D9A04DE70250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B55F4F681DDFE3D1B4C6F4795A84F7 /* Build configuration list for PBXNativeTarget "CoreFeatureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5603BA84A117990D212DBB8E45A44AA9 /* Debug */,
+				462946D6F8E23A44CD9FFEE66AD0B5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
